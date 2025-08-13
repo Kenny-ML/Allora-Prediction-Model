@@ -15,7 +15,7 @@ I signed up for the Forge competition on (https://vk4z45e3hne.typeform.com/to/yp
 
 Started building my model using the built out Allora Model Development Kit (MDK) framework from Allora. The models in this framework are optimized for price prediction , but can be otherwise used for other topics. The framework is actually an open source github repository that allows me as a user to spin up an inference model for over 7,000 cryptocurrencies and stocks. The MDK leverages the Tiingo API as a data feed for these cryptocurrencies and stocks, so I got my API key. Guess I spoke too much about the MDK, so let's get back to using it in building the model.
 
-I installed the MDK repository by cloning it in a new terminal window with ```git clone https://github.com/allora-network/allora-mdk.git``` follwed by running this ```cd allora-mdk``` . I created a conda environment with ```conda env create -f environment.yml``` . Installed all required dependencies by running ```pip install -r requirements.txt``` added my Tiingo API key into my .env file running both ```# .env``` and ```TIINGO_API_KEY=your_tiingo_api_key``` together. Took me sometime to get this done.
+I installed the MDK repository by cloning it in a new terminal window with ```git clone https://github.com/allora-network/allora-mdk.git``` followed by running this ```cd allora-mdk``` . I created a conda environment with ```conda env create -f environment.yml``` . Installed all required dependencies by running ```pip install -r requirements.txt``` added my Tiingo API key into my .env file running both ```# .env``` and ```TIINGO_API_KEY=your_tiingo_api_key``` together. Took me sometime to get this done.
 
 ![requirements](https://github.com/user-attachments/assets/7583fddd-2d1b-4480-8482-6062351fcca1)
 
