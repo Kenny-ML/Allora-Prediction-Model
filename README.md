@@ -23,7 +23,7 @@ Successfully created the model, thereafter trained the model with this command "
 
 ![me](https://github.com/user-attachments/assets/576defe6-61de-4dc3-bbc2-2aeafa5fd2cd)
 
-Move to selecting the start and end dates for my training data, chose mine to be within the range of the past two months. Next was to select the model to train which I chose Regression Time Series from the custom selection. I actually evaluated my model, if you want to evaluate the trained models use this command ```make eval``` . Packaged my trained model into a new folder named allora-worker-forge.
+Move to selecting the start and end dates for my training data, chose mine to be within the range of the past two months. Next was to select the model to train which I chose Regression Time Series from the custom selection. I actually evaluated my model, if you want to evaluate the trained model use this command ```make eval``` . Packaged my trained model into a new folder named allora-worker-forge.
 
 ![make eval](https://github.com/user-attachments/assets/34716376-f8ef-4d4d-8e55-ed45ec136d07)
 
